@@ -21,7 +21,7 @@ import { Ionicons } from '@expo/vector-icons';
 // import { KeyboardAwareFlatList } from 'react-native-keyboard-aware-scroll-view'; // <-- No longer needed
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { getSession } from '@/lib/services/authService';
-
+// import { getSession } from '@/lib/services/authService';
 interface Message {
     id: string;
     text: string;
