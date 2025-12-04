@@ -246,12 +246,12 @@ const MobileRegistrationScreen: React.FC = () => {
       </KeyboardAvoidingView>
 
       <View style={styles.poweredBy}>
-        <Text style={{ fontSize: 12 }}>Powered By </Text>
+        <Text style={{ fontSize: 12 }}>Developed By </Text>
         <Text
           style={{ color: "blue", fontSize: 12 }}
-          onPress={() => router.push("https://www.metawish.ai/")}
+          onPress={() => router.push("https://discoverwebsoft.com/")}
         >
-          Metawish.AI
+          DISCOVER WEBSOFT
         </Text>
       </View>
     </View>
